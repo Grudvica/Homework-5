@@ -1,0 +1,367 @@
+/*------------ General------------*/
+
+body{
+    background-color: white;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Monda', sans-serif;
+}
+a{  
+    color: black;
+    text-decoration: none;
+}
+.nav:hover{
+    border-bottom: 2px solid rgb(255, 123, 0);
+}
+h2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 32px;
+    line-height: 39px;
+    margin: 2% 0 0 2% ;
+}
+h2:hover{
+    cursor: pointer;
+    color: rgb(86, 86, 88);
+}
+p{
+    margin: 0 2% 1% 2%;
+}
+.comment{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+    margin: 2% 0 0 2%; 
+    
+}
+h3{
+    margin: 15% 0 0 30%;
+    display: inline-block;
+}
+#games{
+    margin: 15% 0 0 40%;
+}
+
+/*------------- Header --------------*/
+header{
+    z-index: +5;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.719);
+
+}
+#header{
+    margin: 6%;
+}
+.clear{
+    width: 100%;
+    height: 20px;
+    order: 1;
+}
+.brending{
+    order: 2;
+    width: 30%;
+}
+.nav-bar{
+    
+    order: 3;
+    width: 70%;
+}
+#logo{
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+nav{
+    margin: 3%;
+    float: right;
+}
+ul{
+    float: right;
+}
+li{ 
+    margin-right: 15px;
+    display: inline-block;
+}
+
+/*---------------- Main Section -----------------*/
+
+.main-container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.white-space{
+    width:100%;
+    height: 400px;
+}
+.white-space:first-of-type{
+    width:100%;
+    height: 200px;
+}
+.little-white-space{
+    width:100%;
+    height: 200px;
+}
+.picture1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("http://deskbg.com/s3/wpp/0/103/orange-hd-wallpapers-desktop-background.jpg");
+    background-size: cover;
+}
+.picture1:hover{
+    cursor: pointer;
+}
+
+.text-window1{
+    text-align: justify;
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px #525050;
+    z-index: +1;
+    left: 25%;
+    top: 85%;
+    height: 45%;
+}
+
+.article-circle{
+    display: inline-block;
+    float: right;
+    height: 50px;
+    width: 50px;
+    background: url("../images/Ja.jpg"); 
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 2% 2% 0;
+}
+
+/*--------------category list--------------*/
+.category{
+    width: 100%;
+    background-color:rgb(209, 23, 10);
+}
+.category-list{
+    
+    display: flex;
+    width: 60%;
+    height: 300px;
+    margin:  auto;
+}
+.category-item{
+    box-shadow: 0px 0px 3px #525050; 
+    width:30%;
+    margin: 2%;
+    background-color: white;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.category-item:hover{
+    cursor: pointer;
+}
+.category-pic-1{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    background: url("http://digitalspyuk.cdnds.net/16/50/1600x800/landscape-1481544497-best-xbox-one-games-collage.jpg");
+    background-size: cover;
+    
+}
+.category-pic-2{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    background: url("https://searchengineland.com/figz/wp-content/seloads/2015/08/code-javascript-ajax-ss-1920-800x450.jpg");
+    background-size: cover;
+    
+}
+.category-pic-3{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    background: url("http://images.indianexpress.com/2016/05/work-relationship-thinkstock-2.jpg");
+    background-size: cover;
+    
+}
+.category-circle{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: white;
+    top: 45%;
+    left: 35%;
+
+}
+i{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+/*-------------- Main Section continue-------------*/
+.picture2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("https://c1.staticflickr.com/5/4145/4992543182_024f52949b_b.jpg");
+    background-size: cover;
+}
+.picture2:hover{
+    cursor: pointer;
+}
+.text-window2{
+    text-align: justify;
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px #525050;
+    z-index: +1;
+    left: 25%;
+    top: 270%;
+    height: 45%;
+}
+.picture3{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fdims-shared%2Fdims3%2FGLOB%2Fcrop%2F5280x3468%2B0%2B0%2Fresize%2F1400x920%21%2Fformat%2Fjpg%2Fquality%2F85%2Fhttp%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F611d04d528ff120e1708e464c1863ed3%2F203232670%2F566016893.jpg&client=cbc79c14efcebee57402&signature=0b744800e4ac3adca271644472274a5164d87dfc");
+    background-size: cover;
+}
+.picture3:hover{
+    cursor: pointer;
+}
+.text-window3{
+    text-align: justify;
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px #525050;
+    z-index: +1;
+    left: 25%;
+    top: 388%;
+    height: 45%;
+}
+
+
+/*------------------------------------------ Media Queris-----------------------------------*/
+
+@media screen and (max-width: 1250px){
+
+.header{
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+}
+.text-window1{
+    position: static;
+    box-shadow: none;
+    width: 100%;
+    margin: 0 auto;
+} 
+.text-window2{
+    position: static;
+    box-shadow: none;
+    width: 100%;
+    margin: 0 auto;
+}  
+.text-window3{
+    position: static;
+    box-shadow: none;
+    width: 100%;
+    margin: 0 auto;
+}
+.white-space{
+    height: 150px;
+}
+.category-circle{
+    display: none;
+}
+.category-list{
+    width: 100%;
+}     
+}
+
+
+
+@media screen and (max-width: 670px){
+.category{
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 550px){
+	
+.main-container{
+    width: 100%;
+}
+.picture1{
+    display: none;
+}
+.picture2{
+    display: none;
+}
+.picture3{
+    display: none;
+}
+.text-window1{
+    position: static;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.text-window2{
+    position: static;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.text-window3{
+    position: static;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.category{
+    display: none;
+}
+.white-space{
+    height: 50px;
+}
+header{
+    position: static;
+}
+.header{
+    width: 100%;
+}
+.brending{
+    clear: both;
+    width: 100%
+}
+.nav-bar{
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+}
